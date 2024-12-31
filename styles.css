@@ -4,15 +4,17 @@ body {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
-
+/*
 li {
-    display: inline;
+    display: inline;    
 }
-
+*/
 .section-1 {
     background-color: rgb(28, 28, 75);
     color: white;
