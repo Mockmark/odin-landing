@@ -106,8 +106,8 @@ li {
     display: flex;
     justify-content: center;    
     flex: 1;
-    border: 5px solid gold;
-    background-color: white;
+    border: 5px solid gray;
+    background-color: gray;
     /*padding: auto;*/
 }
 
