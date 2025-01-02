@@ -114,7 +114,8 @@ li {
 .section-2 {
     display: flex;
     flex-direction: column;      
-    align-items: center;        
+    align-items: center;   
+    padding-bottom: 100px;     
 }
 
 .infoheader {
@@ -143,4 +144,37 @@ li {
     flex-direction: column;
     margin: 10px;
     padding: 10px;    
+}
+
+.section-3 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px; 
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nice-quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;    
+    color: #575b5e;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.source {   
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 500px;
 }
